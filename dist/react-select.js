@@ -624,8 +624,8 @@ var Value = function (_React$Component) {
 					style: this.props.value.style,
 					title: this.props.value.title
 				},
-				this.renderRemoveIcon(),
-				this.renderLabel()
+				this.renderLabel(),
+				this.renderRemoveIcon()
 			);
 		}
 	}]);

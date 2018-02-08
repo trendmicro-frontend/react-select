@@ -203,7 +203,7 @@
   width: 17px;
 }
 .Select-clear-zone:hover {
-  color: #D0021B;
+  color: #333;
 }
 .Select-clear {
   display: inline-block;
@@ -309,7 +309,7 @@
 .Select-option.is-focused {
   background-color: #ebf5ff;
   /* Fallback color for IE 8 */
-  background-color: rgba(0, 126, 255, 0.08);
+  background-color: #eee;
   color: #333;
 }
 .Select-option.is-disabled {
@@ -336,14 +336,11 @@
   margin-left: 5px;
 }
 .Select--multi .Select-value {
-  background-color: #ebf5ff;
   /* Fallback color for IE 8 */
-  background-color: rgba(0, 126, 255, 0.08);
+  background-color: #cceaf5;
   border-radius: 2px;
-  border: 1px solid #c2e0ff;
   /* Fallback color for IE 8 */
-  border: 1px solid rgba(0, 126, 255, 0.24);
-  color: #007eff;
+  border: 1px solid #cceaf5;
   display: inline-block;
   font-size: 0.9em;
   line-height: 1.4;
@@ -374,22 +371,19 @@
   cursor: pointer;
   border-bottom-left-radius: 2px;
   border-top-left-radius: 2px;
-  border-right: 1px solid #c2e0ff;
   /* Fallback color for IE 8 */
-  border-right: 1px solid rgba(0, 126, 255, 0.24);
+  border-right: 1px solid #cceaf5;
+  font-size: 14px;
+  color: #999;
   padding: 1px 5px 3px;
 }
 .Select--multi .Select-value-icon:hover,
 .Select--multi .Select-value-icon:focus {
-  background-color: #d8eafd;
-  /* Fallback color for IE 8 */
-  background-color: rgba(0, 113, 230, 0.08);
-  color: #0071e6;
+  color: #333;
 }
 .Select--multi .Select-value-icon:active {
-  background-color: #c2e0ff;
   /* Fallback color for IE 8 */
-  background-color: rgba(0, 126, 255, 0.24);
+  background-color: #cceaf5;
 }
 .Select--multi.Select--rtl .Select-value {
   margin-left: 0;
@@ -397,9 +391,8 @@
 }
 .Select--multi.Select--rtl .Select-value-icon {
   border-right: none;
-  border-left: 1px solid #c2e0ff;
   /* Fallback color for IE 8 */
-  border-left: 1px solid rgba(0, 126, 255, 0.24);
+  border-left: 1px solid #cceaf5;
 }
 .Select--multi.is-disabled .Select-value {
   background-color: #fcfcfc;

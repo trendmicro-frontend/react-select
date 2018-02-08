@@ -86,8 +86,8 @@ class Value extends React.Component {
 				style={this.props.value.style}
 				title={this.props.value.title}
 				>
-				{this.renderRemoveIcon()}
 				{this.renderLabel()}
+				{this.renderRemoveIcon()}
 			</div>
 		);
 	}
