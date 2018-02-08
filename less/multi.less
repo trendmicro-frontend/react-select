@@ -31,7 +31,7 @@
 		border-radius: @select-item-border-radius;
 		border: 1px solid @select-item-border-color-fb;  /* Fallback color for IE 8 */
 		border: 1px solid @select-item-border-color;
-		color: @select-item-color;
+		// color: @select-item-color;
 		display: inline-block;
 		font-size: @select-item-font-size;
 		line-height: 1.4;
@@ -69,15 +69,17 @@
 		.border-left-radius( @select-item-border-radius );
 		border-right: 1px solid @select-item-border-color-fb;  /* Fallback color for IE 8 */
 		border-right: 1px solid @select-item-border-color;
+		font-size: @select-icon-fontsize;
+		color: @select-icon-color;
 
 		// move the baseline up by 1px
 		padding: (@select-item-padding-vertical - 1) @select-item-padding-horizontal (@select-item-padding-vertical + 1);
 
 		&:hover,
 		&:focus {
-			background-color: @select-item-hover-bg-fb;  /* Fallback color for IE 8 */
-			background-color: @select-item-hover-bg;
-			color: @select-item-hover-color;
+			// background-color: @select-item-hover-bg-fb;  /* Fallback color for IE 8 */
+			// background-color: @select-item-hover-bg;
+			color: @select-text-color;
 		}
 		&:active {
 			background-color: @select-item-border-color-fb;  /* Fallback color for IE 8 */
