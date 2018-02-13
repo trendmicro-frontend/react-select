@@ -375,7 +375,7 @@
   border-right: 1px solid #cceaf5;
   font-size: 14px;
   color: #999;
-  padding: 1px 5px 3px;
+  padding: 2px 5px 3px;
 }
 .Select--multi .Select-value-icon:hover,
 .Select--multi .Select-value-icon:focus {
